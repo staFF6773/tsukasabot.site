@@ -8,4 +8,4 @@ If you like to support me and darling bot you can join our support server anothe
 
 ### Links 🌐
 - **[Tsukasa support](https://discord.gg/AU6xf2g9wX)** 🌸
-- **[Darling support](Finished project)** ✨
+- **[Darling support](https://sourceb.in/E1MTreYzPk)** ✨
