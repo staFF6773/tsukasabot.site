@@ -1,0 +1,105 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Bulma CSS -->
+	<link rel="stylesheet" href="./404/bulma.css">
+	<title>404 Error</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./img/pfp.ico">
+	<style>
+		body {
+			--color: #111;
+			--color2: #fff;
+			--color3: #4a4a4a;
+		}
+
+		body.light-theme {
+			--color: #fff;
+			--color2: #4a4a4a;
+			--color3: #0a0a0a;
+		}
+
+
+		@media (prefers-color-scheme: dark) {
+			/* defaults to dark theme */
+			body {
+				--color: #fff;
+				--color2: #4a4a4a;
+				--color3: #0a0a0a;
+			}
+			body.dark-theme {
+				--color: #111;
+				--color2: #fff;
+				--color3: #4a4a4a;
+			}
+		}
+
+		body {
+			overflow: hidden !important;
+		}
+
+		.mainF {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			width: 100%;
+		}
+
+		.hero.is-success {
+			background-color: var(--color);
+		}
+
+		.button.is-white {
+			background-color: var(--color);
+			border-color: var(--color2);
+			color: var(--color3);
+		}
+
+		::-webkit-Scrollbar {
+			width: 7px;
+			background: var(--color);
+		}
+
+		::-webkit-Scrollbar-thumb {
+			border-radius: 20px;
+			background: rgb(245, 180, 207);
+			box-shadow: inset 0 0 20px rgb(245, 180, 207);
+		}
+
+		::-webkit-Scrollbar-track {
+			margin-top: 80px;
+			border-radius: 10px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<section class="hero is-success is-fullheight">
+		<div class="hero-body">
+			<div class="mainF">
+				<h1 style="font-size: 25vh;" class="title">
+					404
+				</h1>
+				<h2 style="font-size: 3vh;" class="subtitle">
+					Page Not Found
+				</h2>
+				<a style="align-self: center;" href="/"><button class="button is-white">Return</button></a>
+          </div>
+        </div>
+    </section> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
+    <script> 
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+const currentTheme = localStorage.getItem("theme");
+
+if (currentTheme == "dark") {
+  document.body.classList.toggle("dark-theme");
+
+} else if (currentTheme == "light") {
+  document.body.classList.toggle("light-theme");
+}  
+    </script>
+
+</body></html>
