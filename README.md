@@ -1,4 +1,4 @@
-# tsukasabot.sit
+# tsukasabot.sites
 
 [![Captura-de-pantalla-2023-09-10-082049.png](https://i.postimg.cc/ncZmNcnJ/Captura-de-pantalla-2023-09-10-082049.png)](https://postimg.cc/7bsb24Cs)
 
