@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+ body {
+     --color: #111;
+     --color2:#24272d;
+     --color3:#A9A9A9;
+     --color4:#1d1f21;
+}
+ body.light-theme {
+     --color: #fff;
+     --color2:#fff;
+     --color3:black;
+     --color4:#f9f9f9;
+}
+ @media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+     body {
+         --color: #fff;
+         --color2:#fff;
+         --color3:black;
+         --color4:#f9f9f9;
+    }
+     body.dark-theme {
+         --color: #111;
+         --color2:#24272d;
+         --color3:#A9A9A9;
+         --color4:#1d1f21;
+    }
+}
+ html {
+     width: 100%;
+}
+ body {
+     top: 0px;
+     width:100%;
+     height: 100%;
+     background: var(--color);
+     z-index: -1;
+     margin: 0 auto;
+}
+ a {
+     text-decoration: inherit;
+     color: inherit;
+}
+ .center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px 10%;
+}
+ .darlingName {
+     font-family: 'Baloo Paaji 2', cursive;
+     font-size: 40px;
+     cursor: pointer;
+     font-weight: 400;
+}
+ .sep {
+     color: rgb(245, 180, 207);
+     margin: 0 2% 0 10px;
+}
+ .ops {
+     list-style: none;
+     display: flex;
+     font-family: 'Baloo Paaji 2', cursive;
+     flex: 1;
+     font-size: 1.2rem;
+     padding: 0;
+}
+ .lis {
+     padding: 0 10px;
+     cursor: pointer;
+}
+ #discord-button .icon {
+     overflow: hidden;
+     margin-top: 2%;
+     width: 25px;
+     height: 25px;
+     margin-right: 10px;
+}
+ #discord-button .icon svg {
+     fill: white;
+}
+ #discord-button .login-button {
+     z-index: 2;
+     position: relative;
+     color: white;
+     font-weight: bold;
+     border-radius: 12px;
+     display: -webkit-inline-box;
+     display: inline-flex;
+     -webkit-box-align: center;
+     align-items: center;
+     padding: 10px 15px;
+     background-color: #7289da;
+     text-decoration: none;
+}
+ #discord-button .login-button:hover {
+     background-color: #6a7fc9;
+}
+ #discord-buttonm .iconm {
+     overflow: hidden;
+     margin-top: 2%;
+     width: 25px;
+     height: 25px;
+     margin-right: 10px;
+}
+ #discord-buttonm .iconm svg {
+     fill: white;
+}
+ #discord-buttonm .login-buttonm {
+     z-index: 2;
+     position: relative;
+     color: white;
+     font-weight: bold;
+     border-radius: 12px;
+     display: none;
+     -webkit-box-align: center;
+     align-items: center;
+     padding: 10px 15px;
+     background-color: #7289da;
+     text-decoration: none;
+}
+ #discord-buttonm .login-buttonm:hover {
+     background-color: #6a7fc9;
+}
+ @media only screen and (max-width: 780px) {
+}
+ .is-vertical-center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .contentConteiner {
+     min-height : 50vh;
+}
+ .contentConteiner b {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 3rem;
+}
+ div .spanBreak {
+     cursor: default;
+     display: block;
+     margin: 10px;
+     font-size: 1.2rem;
+}
+ .mov {
+     margin-bottom: 30px !important;
+}
+ .heroArea {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-self: center;
+     width: 100%;
+}
+ .greenHover:hover {
+     color: rgb(245, 180, 207) !important;
+}
+ .button a {
+     color:rgb(245, 180, 207) !important;
+}
+ .button a:hover {
+     color: white !important;
+}
+ .contBox {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+ @media only screen and (max-width: 412px) {
+     .contBox {
+         flex-direction: column;
+         justify-content: space-around;
+    }
+}
+ .footerDiv {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+ @media only screen and (max-width: 530px) {
+     nav {
+         justify-content: center;
+    }
+     .ops {
+         flex: 0;
+    }
+     .footerDiv {
+         justify-content: space-between;
+    }
+     .footer {
+         font-size: 13px;
+    }
+     #lovediv {
+         max-width: 8vh;
+    }
+     .footerDiv .darlingName {
+         display: none;
+    }
+     .love {
+         display: none;
+    }
+     nav {
+         justify-content: center;
+    }
+     .ops {
+         flex: 0;
+    }
+     .darlingName {
+         font-size: 30px;
+    }
+     .ops a {
+         font-size: 17px;
+    }
+     .front_image {
+         visibility: hidden;
+    }
+     nav {
+         justify-content: center;
+    }
+     .ops {
+         flex: 0;
+    }
+     .column {
+         display: none !important;
+    }
+     #discord-buttonm .login-buttonm {
+         display: -webkit-inline-box;
+         display: inline-flex;
+    }
+     #discord-button .login-button {
+         display: none;
+    }
+}
+ .link {
+     color: #4a4a4a;
+     cursor: pointer;
+}
+ #lovediv {
+     max-width: 10vh;
+}
+ .morefuncs {
+     font-size: 2rem;
+     text-align: center;
+     font-weight: bold;
+}
+ #scroll {
+     margin-top: 25%;
+}
+ .contentsection {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+ .contentdiv {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 5% 0;
+}
+ .contentsep {
+     margin: 0 2vw;
+     min-width: 350px;
+     max-width: 760px;
+}
+ .contentsep h1 {
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin: 15px 0;
+}
+ .contentsep h2 {
+     font-size: 1.5rem;
+}
+ .contentimg {
+     max-height: calc(100% - 30%);
+     max-width: calc(100% - 30%);
+     border-radius: 10px;
+     margin: 0 2vw;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .reverse {
+     text-align: right;
+}
+ @media only screen and (max-width: 763px) {
+     .front_image {
+         visibility: hidden;
+    }
+     .column {
+         display: none !important;
+    }
+}
+ @media only screen and (max-width: 1024px) {
+     #topgg {
+         display: none;
+    }
+     .txtcont{
+         text-align: center;
+    }
+     .contentdiv {
+         flex-direction: column;
+         text-align: center;
+    }
+     .contentsep h2 {
+         font-size: 1.2rem;
+    }
+     .reverseflex {
+         flex-direction: column-reverse;
+    }
+     .reverse {
+         text-align: center;
+    }
+}
+/* ARROW BOUNCE */
+ .arrow {
+     text-align: center;
+     margin: 30px 0;
+}
+ .bounce {
+     -webkit-animation: bounce 2s infinite;
+     animation: bounce 2s infinite;
+}
+ @-webkit-keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+    }
+     40% {
+         -webkit-transform: translateY(-30px);
+         transform: translateY(-30px);
+    }
+     60% {
+         -webkit-transform: translateY(-15px);
+         transform: translateY(-15px);
+    }
+}
+ @keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+    }
+     40% {
+         -webkit-transform: translateY(-30px);
+         transform: translateY(-30px);
+    }
+     60% {
+         -webkit-transform: translateY(-15px);
+         transform: translateY(-15px);
+    }
+}
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: var(--color4);
+     max-width: 200px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     top: 50px;
+     padding-top: 20px;
+}
+/* Links inside the dropdown */
+ .dropdown-content a {
+     color: var(--color3);
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+}
+ .dropdown-content a:hover {
+    background-color: var(--color2)
+}
+ ::-webkit-Scrollbar{
+     width: 7px;
+     background: var(--color);
+}
+ ::-webkit-Scrollbar-thumb{
+     border-radius: 20px;
+     background: rgb(245, 180, 207);
+     box-shadow: inset 0 0 20px rgb(245, 180, 207);
+}
+ ::-webkit-Scrollbar-track{
+     margin-top: 80px;
+     border-radius: 10px;
+}
+ .switch {
+     position: relative;
+     display: inline-block;
+     width: 50px;
+     height: 24px;
+}
+/* Hide default HTML checkbox */
+ .switch input {
+     opacity: 0;
+     width: 0;
+     height: 0;
+}
+/* The slider */
+ .slider {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #ccc;
+     -webkit-transition: .4s;
+     transition: .4s;
+}
+ .slider:before {
+     position: absolute;
+     content: "";
+     height: 16px;
+     width: 16px;
+     left: 4px;
+     bottom: 4px;
+     background-color: white;
+     -webkit-transition: .4s;
+     transition: .4s;
+}
+ input:checked + .slider {
+     background-color: #1acf7e;
+}
+ input:focus + .slider {
+     box-shadow: 0 0 1px #ccc;
+}
+ input:checked + .slider:before {
+     -webkit-transform: translateX(26px);
+     -ms-transform: translateX(26px);
+     transform: translateX(26px);
+}
+ .box {
+     background-color: var(--color2);
+}
+ .footer {
+     background-color: var(--color2);
+}
+ .slider.round:before {
+     border-radius: 50%;
+}
+ .slider.round {
+     border-radius: 34px;
+}
