@@ -13,4 +13,4 @@ We also have support for the following languages remember that Spanish is the ma
 - **[Japanese](https://tsukasabot.site/en.html)** 🇯🇵
 
 ### Links 🌐
-- **[Tsukasa support](https://discord.gg/AU6xf2g9wX)** 🌸
+- **[Tsukasa Support](https://discord.gg/AU6xf2g9wX)** 🌸
