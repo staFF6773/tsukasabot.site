@@ -10,7 +10,7 @@ We also have support for the following languages remember that Spanish is the ma
 ### Languages ✨
 - **[Spanish](https://tsukasabot.site/)** 🇪🇸
 - **[English](https://tsukasabot.site/en.html)** 🇺🇸
-- **[Japanese](https://tsukasabot.site/en.html)** 🇯🇵
+- **[Japanese](https://tsukasabot.site/jp.html)** 🇯🇵
 
 ### Links 🌐
 - **[Tsukasa Support](https://discord.gg/AU6xf2g9wX)** 🌸
